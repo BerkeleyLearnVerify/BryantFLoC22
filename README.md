@@ -1,1 +1,0 @@
-Fill in ```.json``` files in ```includes``` folder; run ```python3 scripts/build.py``` to build html files.
