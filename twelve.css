@@ -494,14 +494,14 @@ a:hover {
 }
 .site-header h1 a,
 .site-header h2 a {
-	color: #515151;
+	/* color: #515151; */
 	display: inline-block;
 	text-decoration: none;
 }
-.site-header h1 a:hover,
+/* .site-header h1 a:hover,
 .site-header h2 a:hover {
 	color: #21759b;
-}
+} */
 .site-header h1 {
 	font-size: 24px;
 	font-size: 1.714285714rem;
@@ -1412,12 +1412,12 @@ img#wpstats {
 	}
 	.site-header h1,
 	.site-header h2 {
-		text-align: left;
+		text-align: center;
 	}
 	.site-header h1 {
 		font-size: 26px;
-		font-size: 1.857142857rem;
-		line-height: 1.846153846;
+		font-size: 2.5rem;
+		line-height: 1.5;
 		margin-bottom: 0;
 	}
 	.main-navigation ul.nav-menu,
@@ -1618,10 +1618,10 @@ img#wpstats {
 		font-size: 10pt;
 		text-align: left;
 	}
-	.site-header h1 a,
+	/* .site-header h1 a,
 	.site-header h2 a {
 		color: #000;
-	}
+	} */
 	.author-avatar,
 	#colophon,
 	#respond,
