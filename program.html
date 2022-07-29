@@ -112,11 +112,16 @@
   <h2>Tentative Schedule</h2>
 </center> -->
 <table>
+  <colgroup>
+    <col span="1">
+    <col span="1">
+    <col span="1" style="width: 60%;">
+ </colgroup>
+
   <tr>
     <th>Time</th>
     <th>Speaker</th>
-    <th>Talk Title</th>
-    <!-- <th>Abstract</th> -->
+    <th>Talk Title (Expand for Abstract)</th>
   </tr>
   <tr>
     <td>9:05-9:10</td>
@@ -131,10 +136,12 @@
   <tr>
     <td>9:15-9:25</td>
     <td>Ken McMillan</td>
-    <td>The Magic of BDD's</td>
-    <!-- <td>
-      I'll talk about when BDD's are better than SAT, and discuss several attempts to improve on BDD's for symbolic model checking that met with limited success.
-    </td> -->
+    <td>
+      <details>
+        <summary>The Magic of BDD's</summary>
+        <p>I'll talk about when BDD's are better than SAT, and discuss several attempts to improve on BDD's for symbolic model checking that met with limited success.</p>
+      </details>
+    </td>
   </tr>
   <tr>
     <td>9:25-9:35</td>
@@ -169,7 +176,12 @@
   <tr>
     <td>10:15-10:25</td>
     <td>Nikolaj Bjorner</td>
-    <td>BDDs in Z3 and Network Verification</td>
+    <td>
+      <details>
+        <summary>BDDs in Z3 and Network Verification</summary>
+        <p>The talk describes how z3 has used BDDs and ZDDs for solving EPR formulas, quantifier elimination, and manipulating polynomials. It also describes a journey in network verification tools using BDDs and related trie data-structures.</p>
+      </details>
+    </td>
   </tr>
   <tr>
     <td>10:25-10:30</td>
@@ -184,12 +196,22 @@
   <tr>
     <td>11:10-11:15</td>
     <td>Sanjit Seshia</td>
-    <td>Machine Learning and BDDs</td>
+    <td>
+      <details>
+        <summary>Machine Learning and BDDs</summary>
+        <p>I will relate a few anecdotes about explorations at the intersection of machine learning, BDDs, and satisfiability solvers over the last 25 years.</p>
+      </details>
+    </td>
   </tr>
   <tr>
     <td>11:15-11:30</td>
     <td>Randy Bryant</td>
-    <td>Our Tools Should Generate Checkable Proofs</td>
+    <td>
+      <details>
+        <summary>Our Tools Should Generate Checkable Proofs</summary>
+        <p>For over four decades, I have helped develop tools that enable designers to create correct hardware and software systems. Some of these tools even claimed to provide formal guarantees of correctness. But they had a fundamental flaw—an error in an underlying algorithm or its implementation could cause the tool to produce an incorrect result. The prospects for developing efficient and scalable tools that are themselves formally verified seem unlikely. On the other hand, having tools produce checkable proofs of correctness yields nearly the same benefit. Even if the tool is buggy, each of its run can be formally verified. The SAT community instituted a requirement that solvers (at least those in the main track of the SAT competition) generate checkable proofs of unsatisfiability. This requirement has had a transformative effect on the quality of the solvers, the productivity of the developers, and the certainty of the competition results. We can learn from their experience in instituting this practice for other areas of automated reasoning.</p>
+      </details>
+    </td>
   </tr>
 </table> 
 <!-- <table>
